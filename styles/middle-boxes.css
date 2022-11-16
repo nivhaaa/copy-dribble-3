@@ -85,12 +85,26 @@ button:focus .text-upon-photo {
 
 .text-on-photo {
     position: absolute;
+    top: 5px;
 }
 
 .text-on-photo h1 {
-    align-items: flex-start;
     margin: 5px 0 0 0;
     color: white;
     font-size: 50px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.text-on-photo p {
+    color: white;
+    font-size: 32px;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+button:focus .text-on-photo p,
+button:focus .text-on-photo h1 {
+    opacity: 1;
 }
 

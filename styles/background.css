@@ -19,7 +19,7 @@
     height: 40px;
     left: 20px;
     top: 20px;
-    transform: skew(-25deg);
+    transform: skewY(-25deg);
     width: 10px;
 }
 
@@ -30,6 +30,7 @@
 
     to {
         transform: translateY(-10vh);
+        
     }
 }
 
@@ -41,7 +42,7 @@
     left: 20px;
     position: absolute;
     top: 20px;
-    transform: skew(-50deg);
+    transform: skewY(-50deg);
     width: 10px;
 }
 
