@@ -1,0 +1,540 @@
+.whole-bg {
+    align-items: center;
+    background: linear-gradient(
+        to top,
+        rgb(224, 143, 163),
+        rgb(207, 187, 160)
+    );
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    position: fixed;
+    width: 100vw;
+    order: -1;
+}
+
+.slide {
+    background: white;
+    content: "";
+    height: 40px;
+    left: 20px;
+    top: 20px;
+    transform: skewY(-25deg);
+    width: 10px;
+}
+
+@keyframes fallin1 {
+    from {
+        transform: translateY(100vh);
+    }
+
+    to {
+        transform: translateY(-10vh);
+        
+    }
+}
+
+.slide:nth-child(1) {
+    animation: fallin1 2s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    transform: skewY(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(2) {
+    animation: fallin1 3s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 120px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(3) {
+    animation: fallin1 1s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 70px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(4) {
+    animation: fallin1 4s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 170px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(5) {
+    animation: fallin1 1s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 220px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(6) {
+    animation: fallin1 5s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 270px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(7) {
+    animation: fallin1 2s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 320px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(8) {
+    animation: fallin1 4s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 370px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(9) {
+    animation: fallin1 3s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 420px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(10) {
+    animation: fallin1 1s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 470px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(11) {
+    animation: fallin1 2s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 520px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(12) {
+    animation: fallin1 7s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 570px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(13) {
+    animation: fallin1 4s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 620px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(14) {
+    animation: fallin1 2s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 670px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(15) {
+    animation: fallin1 1s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 720px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(16) {
+    animation: fallin1 2s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 770px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(17) {
+    animation: fallin1 4s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 820px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(18) {
+    animation: fallin1 3s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 870px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(19) {
+    animation: fallin1 1s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 920px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(20) {
+    animation: fallin1 6s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 970px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(21) {
+    animation: fallin1 3s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1020px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(22) {
+    animation: fallin1 1s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1070px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(23) {
+    animation: fallin1 2s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1120px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(24) {
+    animation: fallin1 3s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1170px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(25) {
+    animation: fallin1 1s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1220px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(26) {
+    animation: fallin1 6s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1270px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(27) {
+    animation: fallin1 7s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1320px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(28) {
+    animation: fallin1 3s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1370px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(29) {
+    animation: fallin1 5s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1420px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(30) {
+    animation: fallin1 1s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1470px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(31) {
+    animation: fallin1 2s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1520px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(32) {
+    animation: fallin1 4s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1570px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(33) {
+    animation: fallin1 3s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1620px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(34) {
+    animation: fallin1 2s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1670px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(35) {
+    animation: fallin1 1s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1720px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(36) {
+    animation: fallin1 3s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1770px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(37) {
+    animation: fallin1 1s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1820px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(38) {
+    animation: fallin1 2s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1870px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(39) {
+    animation: fallin1 4s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1920px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(40) {
+    animation: fallin1 5s linear infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 1970px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(41) {
+    animation: fallin1 2s ease-in-out infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 2020px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
+.slide:nth-child(42) {
+    animation: fallin1 1s ease-in infinite;
+    background: white;
+    content: "";
+    height: 40px;
+    left: 2070px;
+    position: absolute;
+    top: 20px;
+    transform: skew(-50deg);
+    width: 10px;
+}
+
